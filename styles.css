@@ -1,3 +1,26 @@
-#header {
-    background-color: beige;    
+header {
+    background-color: rgb(204, 75, 75);
+    color: rgb(18, 141, 189); 
+    padding: 7px;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace}
+
+.nav {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.button {
+    background-color: rgb(7, 93, 192);
+    border-color: bisque;   
+
+}
+
+.articles {
+    flex: auto;
+}
+
+.article {
+    flex: 25%;
 }
