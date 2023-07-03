@@ -1,6 +1,6 @@
 header {
-    background-color: rgb(204, 75, 75);
-    color: rgb(18, 141, 189); 
+    background-color: rgb(17, 158, 24);
+    color: rgb(29, 91, 165); 
     padding: 7px;
     margin: 5px;
     font-family: 'Courier New', Courier, monospace}
@@ -8,19 +8,34 @@ header {
 .nav {
     padding: 0%;
     margin: 0%;
+    align-items: center;
 
 }
 
 .button {
-    background-color: rgb(7, 93, 192);
-    border-color: bisque;   
+    background-color: rgb(26, 91, 165);
+    border-color: bisque;
+    padding-bottom: 2px;
+    margin-bottom: 3px;
 
 }
 
-.articles {
-    flex: auto;
-}
+.container {
+    column-count: 4;
+    column-gap: 5px;
+    column-width: auto;
+    margin: 0%;
+    padding: 0%;
+    border-color: rgb(26, 91, 165);
+  }
 
-.article {
-    flex: 25%;
-}
+  #YWYN {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  h2 {
+    margin: 0px;
+    padding: 0px;
+
+  }
